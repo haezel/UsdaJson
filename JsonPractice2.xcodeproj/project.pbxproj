@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A5F98FA1AF94EF600770951 /* APIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5F98F91AF94EF600770951 /* APIController.swift */; };
 		8AC88BBF1AF3154A00108613 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC88BBE1AF3154A00108613 /* AppDelegate.swift */; };
-		8AC88BC11AF3154A00108613 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC88BC01AF3154A00108613 /* ViewController.swift */; };
+		8AC88BC11AF3154A00108613 /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC88BC01AF3154A00108613 /* SearchResultsViewController.swift */; };
 		8AC88BC41AF3154A00108613 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AC88BC21AF3154A00108613 /* Main.storyboard */; };
 		8AC88BC61AF3154A00108613 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AC88BC51AF3154A00108613 /* Images.xcassets */; };
 		8AC88BC91AF3154A00108613 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AC88BC71AF3154A00108613 /* LaunchScreen.xib */; };
@@ -26,10 +27,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8A5F98F91AF94EF600770951 /* APIController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIController.swift; sourceTree = "<group>"; };
 		8AC88BB91AF3154A00108613 /* JsonPractice2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JsonPractice2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AC88BBD1AF3154A00108613 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8AC88BBE1AF3154A00108613 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8AC88BC01AF3154A00108613 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8AC88BC01AF3154A00108613 /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
 		8AC88BC31AF3154A00108613 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8AC88BC51AF3154A00108613 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8AC88BC81AF3154A00108613 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -78,7 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				8AC88BBE1AF3154A00108613 /* AppDelegate.swift */,
-				8AC88BC01AF3154A00108613 /* ViewController.swift */,
+				8A5F98F91AF94EF600770951 /* APIController.swift */,
+				8AC88BC01AF3154A00108613 /* SearchResultsViewController.swift */,
 				8AC88BC21AF3154A00108613 /* Main.storyboard */,
 				8AC88BC51AF3154A00108613 /* Images.xcassets */,
 				8AC88BC71AF3154A00108613 /* LaunchScreen.xib */,
@@ -212,8 +215,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AC88BC11AF3154A00108613 /* ViewController.swift in Sources */,
+				8AC88BC11AF3154A00108613 /* SearchResultsViewController.swift in Sources */,
 				8AC88BBF1AF3154A00108613 /* AppDelegate.swift in Sources */,
+				8A5F98FA1AF94EF600770951 /* APIController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +415,7 @@
 				8AC88BDA1AF3154A00108613 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8AC88BDB1AF3154A00108613 /* Build configuration list for PBXNativeTarget "JsonPractice2Tests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +424,7 @@
 				8AC88BDD1AF3154A00108613 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
